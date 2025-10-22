@@ -41,11 +41,11 @@ def generate_restaurant_name_and_items(cuisine):
     restaurant_name = response['restaurant_name']
     menu_items = response['menu_items'].strip()
     
-    formatted_response = f"""Here's a fancy name suggestion for your {cuisine} restaurant:
+    formatted_response = f"""🍽️ Here's a fancy name suggestion for your {cuisine} restaurant:
 
-**"{restaurant_name}"**
+✨ **"{restaurant_name}"** ✨
 
-And here are some menu items for {restaurant_name}, as a comma-separated list:
+📋 And here are some menu items for {restaurant_name}, as a comma-separated list:
 
 {menu_items}"""
     
